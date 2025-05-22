@@ -1,0 +1,64 @@
+#sport{
+    text-align: center;
+    background-color: orangered;
+    width: 200px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.titre {
+    color: white;
+    border: dotted 2px orangered;
+    border-radius: 5px;
+    margin: 10px auto;
+    width: 150px;
+    text-align: center;
+}
+
+.cont{
+    border: solid;
+    margin: auto;
+    height: 500px;
+    width: 800px;
+    border-radius: 25px;
+    background-image: url(basket.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.vert{
+    background-color: red;
+}
+
+.rouge{
+    background-color: darkblue;
+}
+
+#amer, #euro{
+    text-align: center;
+    list-style: disc;
+    color: white;
+    background-color: black;
+    width: 180px;
+    margin: auto;
+    border-radius: 25px;
+}
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+body{
+    background-image: url(campo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
