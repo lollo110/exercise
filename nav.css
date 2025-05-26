@@ -1,0 +1,26 @@
+
+body{
+    text-align: center;
+}
+.testo{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.testo p{
+    color: white;
+    margin: 30px;
+}
+.testo a{
+    margin: 0 30px;
+    text-decoration: none;
+    color: white;
+
+}
+.hello{
+    background-color: aqua;
+    padding: 50px;
+    color: white;
+}
