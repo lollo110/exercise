@@ -1,0 +1,63 @@
+body{
+    background-color: grey;
+}
+#gru{
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    background-color: brown;
+    color: wheat;
+    width: 100%;
+}
+.cont{
+    display: flex;
+    background-color: black;
+    margin: 0 400px;
+    box-shadow: 10px 10px 10px black;
+}
+.sec{
+    display: flex;
+    color: white;
+    margin: 50px;
+}
+#due{
+    color: black;
+    display: flex;
+}
+.sec{
+    background-color: red;
+    display: grid;
+    grid-template-columns: 80% 10% 10%;
+    margin: 0 400px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    
+
+}
+.inline{
+    display: inline-block;
+    padding: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#puffi{
+    width: 400px;
+    height: 250px;
+    box-shadow: 10px 10px 10px brown;
+}
+.carino{
+    background-color: burlywood;
+    width: 70%;
+    height: 240px;
+    box-shadow: 10px 10px 10px brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+
+}
+#garga{
+    width: 500px;
+    height: 300px;
+    box-shadow: 10px 10px 10px brown;
+}
