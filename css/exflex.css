@@ -1,0 +1,187 @@
+*{
+    color: white;
+    font-weight: bold;
+}
+.flex1{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;  
+}
+
+.flex2{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    justify-content: center;
+
+}
+
+.flex3{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+
+.flex4{
+    display: flex;
+    justify-content: center;
+    background-color: darkred;
+    height: 100px;
+    align-items: center;
+}
+
+.flex5{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: violet;
+    height: 100px;
+}
+
+.flex6{
+    display: flex;
+    flex-direction: row;
+    background-color: tomato;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.flex7{
+    display: flex;
+    background-color: turquoise;
+    justify-content: space-evenly;
+    height: 100px;
+}
+
+.flex8{
+    background-color: darkgreen;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.flex9{
+    display: flex;
+    background-color: royalblue;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+
+}
+
+#self{
+   align-self: flex-end;
+
+}
+
+.flex10{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: plum;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.flex11{
+    display: flex;
+    background-color: navy;
+    height: 100px;
+    justify-content: space-around;
+    align-items: stretch;
+    border: solid red;
+    
+
+}
+
+#grow{
+    flex-grow: 3;
+    border: solid white;
+}
+
+#flex12{
+    display: flex;
+    background-color: rgb(50, 73, 15);
+    justify-content: center;
+    width: 120px;
+    
+}
+
+/* #flex12 div{
+    flex-basis: 120px;
+} */
+
+.nav1 {
+    flex-shrink: 1;
+    flex-basis: 120px;
+}
+
+.nav2{
+    flex-shrink: 2;
+    flex-basis: 120px;
+}
+
+#flex13{
+    display: flex;
+    background: mediumseagreen;
+    
+
+}
+
+.basis{
+    flex-basis: 400px;
+    border: solid black;
+    width: 350px;
+
+}
+
+.basis2{
+    flex-basis: 100px;
+}
+
+.flex14{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    height: 150px;
+    width: 900px;
+
+}
+
+.flex14 div{
+    height: 50%;
+    width: 300px;
+}
+
+.red{
+    background-color: aqua;
+}
+
+.green{
+    background-color: brown;
+}
+
+.black{
+    background-color: black;
+}
+
+#flex15{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.bla1{
+    align-self: center;
+
+}
+button{
+    color: blueviolet;
+}
