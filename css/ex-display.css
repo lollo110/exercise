@@ -1,0 +1,78 @@
+body {
+    width: 830px;
+    margin: 0 auto;
+    color: white;
+}
+p {
+    margin-top: 50px;
+}
+#or {
+    background-color: rgb(173, 154, 68);
+    padding: 30px;
+    text-align: center;
+    margin: auto;
+}
+
+#gris {
+    background-color: gray;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+section {
+    border:15px solid rgb(104, 196, 199);
+    background-color: rgb(104, 196, 199);
+    height: 500px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.grande {
+    border: solid 1px white;
+    display: flex;
+    width: 398px;
+    height: 249px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0;
+    
+}
+
+.piccolo {
+    border: solid white 1px;
+    height: 123px;
+    width: 197px;
+    margin: 0;
+    
+}
+
+#rose {
+    background-color: pink;
+}
+
+#blue {
+    background-color: rgb(64, 109, 139);
+}
+
+#yellow {
+    background-color: rgb(245, 210, 170);
+}
+
+#mare {
+    background-color: rgb(30, 34, 56);
+}
+
+footer {
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+}
+
+footer > p {
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px;
+}

@@ -1,0 +1,17 @@
+header {
+    height: 110px;
+    background-color: pink;
+}
+
+main {
+    height: 730px;
+}
+
+footer {
+    height: 120px;
+    background-color: pink;
+}
+
+body, h2, p, h1 {
+    margin: 0;
+}
