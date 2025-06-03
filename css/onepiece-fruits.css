@@ -1,0 +1,68 @@
+body{
+    background-image: url(../img/luffyzoro.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    list-style: none;
+    background-color: coral;
+    margin: 0;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover {
+    transform: scaleY(2);
+}
+
+h1 {
+    text-align: center;
+    background-color: crimson;
+    margin: 0;
+    padding: 40px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.rettangolo {
+    /* border: solid black; */
+    height: 200px;
+    width: 558.2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.quadrato {
+    /* border: solid red; */
+    width: 273.1px;
+    height: 197px;
+    margin: auto;
+}
+
+.taille {
+    width: 285px;
+    height: 203px;
+    border-radius: 10px 30px;
+}
+
+.paragraph{
+     text-align: center;
+    margin: 15px auto;
+    background-color: darkkhaki;
+    /* color: aliceblue; */
+    border-radius: 10px 30px;
+}
