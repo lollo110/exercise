@@ -1,11 +1,11 @@
 body{
-    background-image: url(../img/luffyzoro.jpg);
-    background-repeat: no-repeat;
+    background-image: url(../img/luffy.jpg);
+    background-repeat: repeat-y;
     background-size: contain;
     
 }
 .container {
-    width: 60%;
+    width: 85%;
     margin: auto;
 }
 
@@ -15,7 +15,7 @@ nav ul {
     align-content: center;
     flex-direction: row;
     list-style: none;
-    background-color: coral;
+    background-color: crimson;
     margin: 0;
     padding: 30px;
 }
@@ -26,7 +26,7 @@ a{
 }
 
 li:hover {
-    transform: scaleY(2);
+    transform: scale(2);
 }
 
 h1 {
@@ -38,31 +38,47 @@ h1 {
 section{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .rettangolo {
-    /* border: solid black; */
-    height: 200px;
-    width: 558.2px;
+    height: 380px;
+    width: 49%;
     display: flex;
     flex-wrap: wrap;
 }
 .quadrato {
-    /* border: solid red; */
-    width: 273.1px;
-    height: 197px;
+    width: 49.19%;
+    height: 378px;
     margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .taille {
-    width: 285px;
-    height: 203px;
+    width: 75%;
+    height: 75%;
     border-radius: 10px 30px;
 }
 
 .paragraph{
      text-align: center;
-    margin: 15px auto;
-    background-color: darkkhaki;
-    /* color: aliceblue; */
+    margin: 40px;
+    background-color: crimson;
     border-radius: 10px 30px;
 }
+.foot {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  flex-direction: row;
+  list-style: none;
+  background-color: crimson;
+  margin: 0;
+  padding: 30px;
+}
+
+p:hover {
+    transform: scale(2);
+}
+
