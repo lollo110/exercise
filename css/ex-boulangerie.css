@@ -1,0 +1,228 @@
+
+body{
+    width: 100%;
+}
+header{
+    margin: 0;
+}
+.liste{
+    text-align: center;
+}
+h2{
+    margin: 10px 0 0 0;
+}
+.orange{
+    background-color: rgb(180, 108, 0);
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 1px;
+
+}
+.orange2{
+    background-color: rgb(180, 108, 0);
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top: 1px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+    margin-left: -40px;
+    
+}
+
+.taille{
+    width: 100%;
+    border-radius: 10px;
+}
+#title{
+    margin: 0;
+    padding: 20px;
+}
+
+.photo{
+    background-image: url(../img/hero.jpg);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 250px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+}
+
+.attache{
+    margin: 0;
+}
+
+button{
+    margin: 15px;
+    background-color: rgb(243, 110, 32);
+    border-radius: 5px;
+    border: solid rgb(243, 110, 32);
+    color: white;
+}
+
+#spazio{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+h3{
+    margin: 0;
+}
+.space{
+    margin: 0 0 70px 0;
+}
+.center{
+    text-align: center;
+}
+.registration {
+    text-align: center;
+    margin-left: 15px;
+}
+#button {
+    background-color: rgb(243, 110, 32);
+    border: rgb(243, 110, 32);
+    width: 95%;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+}
+
+form{
+    text-align: left;
+}
+input, textarea{
+    width: 90%;
+    padding: 8px;
+}
+
+@media (min-width: 426px) {
+    .orange{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 70px;
+
+    }
+
+    nav ul{
+        width: 300px;
+    }
+
+    .photo{
+        background-size: 100%;
+        background-position-y: -100px;
+        height: 270px;
+        justify-content: center;
+
+    }
+
+    .taille{
+        width: 90%;
+    }
+
+    .fraise{
+        margin-top: 35px;
+    }
+
+    .liste{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .produit{
+        width: 50%;
+    }
+    #spazio{
+        text-align: center;
+    }
+
+    .registration{
+        margin-left: 50px;
+    }
+}
+
+@media (min-width: 769px){
+        .orange{
+        justify-content: space-between;
+        height: 70px;
+
+    }
+        nav ul{
+        width: 300px;
+        margin-right: 100px;
+    }
+
+    #gauche{
+        margin-left: 100px;
+    }
+
+    .photo{
+        background-size: cover;
+        width: 100%;
+        height: 800px;
+        background-position-y: -250px;
+        background-position-x: -50px;
+        justify-content: center;
+        font-size: 50px;
+    }
+
+    .center{
+        margin-top: 20px;
+    }
+    #spazio{
+        text-align: center;
+    }
+
+    .produit{
+        width: 33%;
+    }
+        .fraise{
+        margin-top: 35px;
+    }
+
+    .eclair{
+        margin-top: 35px;
+    }
+
+    .row{
+        display: flex;
+    }
+
+    .column{
+        width: 50%;
+    }
+
+    .registration{
+        width: 50%;
+    }
+
+    footer{
+        text-align: center;
+    }
+    .liste{
+        width: 75%;
+        margin-left: 15%;
+    }
+
+}
+
+@media (min-width: 1025px){
+    .photo{
+        background-position-x: 0;
+    }
+}

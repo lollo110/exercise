@@ -1,4 +1,6 @@
-
+body{
+    margin: 0;
+}
 header{
     background-color: blueviolet;
     height: 30px;
@@ -7,6 +9,7 @@ header{
 
 .container{
     display: flex;
+    margin: 0;
 }
 
 .quadre{
@@ -18,7 +21,6 @@ header{
     margin-top: 20px;
     margin-left: 30px;
     font-size: 20px;
-    text-align: justify;
 }
 .basis2{
     flex-grow: 2;
@@ -35,8 +37,8 @@ header{
 .para{
     background-color: rgb(0, 217, 255);
     padding-right: 250px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     margin: 5px;
     list-style: none;
     color: white;
@@ -51,21 +53,22 @@ h2{
     margin: 10px;
 }
 .photo{
-    width: 22.4%;
+    width: 19%;
     margin: 20px;
 }
 .container2{
     display: flex;
     flex-wrap: wrap;
-    height: 350px;
+    height: 80%;
+    width: 100%;
     justify-content: space-around;
     margin-left: 15px;
     margin-top: 15px;
 }
 
 .taille {
-    width: 422px;
-    height: 299px;
+    width: 100%;
+    height: 100%;
 }
 
 footer{
@@ -76,4 +79,65 @@ footer{
 
 #pre {
     width: 80%;
+}
+
+@media (max-width: 768px){
+    body{
+        margin: 0;
+    }
+    header{
+        background-color: red;
+        width: 100;
+    }
+    .container{
+        flex-direction: column;
+        margin: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .container2{
+        margin: 0;
+        width: 100%;
+        height: 40%;
+        justify-content: center;
+    }
+    .taille{
+        width: 100%;
+        height: 30vw;
+        
+    }
+
+    .photo{
+        width: 30%;
+        height: 20%;
+        margin: 20px;
+        
+    }
+    .basis2{
+        margin-right: 40px;
+
+    }
+    .basis3{
+        height: 280px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .para{
+        text-align: center;
+    }
+    ul{
+        margin-left: 50px;
+        padding: 5px;
+    }
+    footer{
+        margin-top: 50px;
+        padding: 10px;
+        text-align: center;
+    }
+    #pre{
+        text-align: center;
+        text-align: justify;
+    }
+
 }
