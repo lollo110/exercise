@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card{
+    width: 300px;
+    border: solid 1px #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.badge {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.titolo{
+    margin: 10px;
+}
+
+.descrizione {
+    margin: 10px;
+    color: #555;
+}
