@@ -1,0 +1,83 @@
+body{
+    height: 2000px;
+}
+div {
+    width: 150px;
+    height: 150px;
+}
+.green {
+    background-color: green;
+    position: relative;
+    left: 20px;
+}
+.red {
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 25;
+}
+.dark {
+    background-color: black;
+    position: relative;
+}
+
+p {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+h1{
+    position: sticky;
+    top: 0;
+    color: blueviolet;
+    z-index: 20;
+}
+
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    position: relative;
+    top: 22px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+li:hover{
+    transform: scale(2);
+}
+
+.button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 150px;
+    border-radius: 10%;
+    box-shadow: 10px 20px 20px;
+}
+
+.psps{
+    position: relative;
+    width: 900px;
+    height: 1000px;
+    background-color: rgb(187, 181, 181);
+
+}
